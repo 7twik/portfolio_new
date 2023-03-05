@@ -21,7 +21,7 @@ export const Contact = () => {
             data-aos="fade-right"
           >
             <a
-              href="www.linkedin.com/in/biswajit-ghosh-2b0111219"
+              href="https://linkedin.com/in/biswajit-ghosh-2b0111219"
               target="_blank"
               rel="noreferrer"
             >
