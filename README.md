@@ -1,2 +1,4 @@
 # My Portfolio
-Link : 
+Link : https://biswajitghoshportfolio.netlify.app/
+
+This is my portfolio website made using React JS.
