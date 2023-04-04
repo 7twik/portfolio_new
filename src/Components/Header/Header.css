@@ -12,9 +12,9 @@
   }
 }
 
-img{
-  width: 3vw;
-  min-height: 3vh;
+.linki{
+  width: 5vw;
+  min-height: 5vh;
   margin-right: 4px;
   cursor: pointer;
 }

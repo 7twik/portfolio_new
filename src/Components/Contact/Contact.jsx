@@ -51,7 +51,7 @@ export const Contact = () => {
                 <CgMail className="email" />
               </span>
               <span>
-                <p>biswajit150803@gmail.com</p>
+                <p>biswajitghosh150803@gmail.com</p>
               </span>
             </div>
             <div className="iconsCont">

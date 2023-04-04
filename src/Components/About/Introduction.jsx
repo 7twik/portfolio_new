@@ -17,7 +17,7 @@ export const Introduction = () => {
           </h2>
           <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
-              <img src={profilePic} alt="Images" />
+              <img src="https://media.licdn.com/dms/image/D4D03AQGBLqQjCqTcLw/profile-displayphoto-shrink_800_800/0/1677220942468?e=1686182400&v=beta&t=Ynz73v7biCfNUb_Ge3fAIpHwYd9CFVS-8n1YYJdOhgQ" alt="Images" />
             </div>
             <div className="introduction_datacontainer">
               <h4>
@@ -30,12 +30,15 @@ export const Introduction = () => {
                 . I am pursuing B.Tech in Computer science And Engineering 
                 from{" "}
                 <span className="different">
-                  Heritage Institute Of Technology,Kolkata
+                <a href="https://www.heritageit.edu/">
+                Heritage Institute Of Technology,Kolkata
+                </a>
+                  
                 </span>
                 . I am currently a Full stack Web Developer{" "}
                 and exploring Web 3.
               </h4>
-              <h4>Terms That can describe me apart form Coding :</h4>
+              <h4>Things I love apart form Coding :</h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />

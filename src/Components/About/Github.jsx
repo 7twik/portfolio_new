@@ -15,7 +15,8 @@ export const Github = () => {
   return (
     <>
       <div className={"section " + colourTheme} data-aos="fade-right">
-        <h2 className="section__title different">
+      <a href="https://github.com/biswajit150803">
+      <h2 className="section__title different">
           Days I <span className="different"> Code</span>
         </h2>
         <GitHubCalendar
@@ -25,6 +26,7 @@ export const Github = () => {
           theme={colourTheme}
           fontSize={16}
         />
+      </a>
       </div>
     </>
   );

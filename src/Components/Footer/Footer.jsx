@@ -8,7 +8,7 @@ export const Footer = () => {
   return (
     <>
       <div className={"section " + themename}>
-        <a href="/" rel="noreferrer" target="_blank">
+        <a href="https://www.linkedin.com/in/biswajit-ghosh-2b0111219/" rel="noreferrer" target="_blank">
           <div className="footerBox">
             <h3 className="footer">
               @2023 All Rights Reserved{" "}
