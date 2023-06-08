@@ -11,10 +11,11 @@ export const Header = () => {
         <h3 style={{width:"12vw",height:"8vh"}}>
           {/* <a href="#home" className="link" style={{cursor:"pointer",width:"12vw",height:"8vh"}}> */}
             
-              <img
+              {/* <img
               //  src="https://www.shutterstock.com/image-vector/bg-letter-logo-nice-white-260nw-1785134069.jpg" 
               src="https://media.licdn.com/dms/image/D4D03AQGBLqQjCqTcLw/profile-displayphoto-shrink_800_800/0/1677220942468?e=1686182400&v=beta&t=Ynz73v7biCfNUb_Ge3fAIpHwYd9CFVS-8n1YYJdOhgQ"
-               alt="logo" className="linki" />
+               alt="logo" className="linki" /> */}
+               <img src="../../assets/pro.jpg" alt="Images" />
             
           {/* </a> */}
         </h3>

@@ -69,9 +69,9 @@ export const Navbar = () => {
               Contact
             </a>
           </li>
-          {/* <li className="nav__list-item">
+          <li className="nav__list-item">
             <a
-              href="https://drive.google.com/file/d/1O7O6dgBNriadNFoYRj8kHr6-dyPyoG4n/view?usp=sharing"
+              href="https://drive.google.com/file/d/14A0yeQlZCtbOZNw22mfva03c-vNcBNJd/view?usp=sharing"
               onClick={toggleNavList}
               className="link link--nav"
               target="_blank"
@@ -79,7 +79,7 @@ export const Navbar = () => {
             >
               Resume
             </a>
-          </li> */}
+          </li>
         </ul>
         <button
           type="button"

@@ -17,18 +17,19 @@ export const Introduction = () => {
           </h2>
           <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
-              <img src="https://media.licdn.com/dms/image/D4D03AQGBLqQjCqTcLw/profile-displayphoto-shrink_800_800/0/1677220942468?e=1686182400&v=beta&t=Ynz73v7biCfNUb_Ge3fAIpHwYd9CFVS-8n1YYJdOhgQ" alt="Images" />
+              {/* <img src="https://media.licdn.com/dms/image/D4D03AQGBLqQjCqTcLw/profile-displayphoto-shrink_800_800/0/1677220942468?e=1686182400&v=beta&t=Ynz73v7biCfNUb_Ge3fAIpHwYd9CFVS-8n1YYJdOhgQ" alt="Images" /> */}
+              <img src="../../assets/pro.jpg" alt="Images" />
             </div>
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, My name is{" "}
-                <span className="different">Biswajit Ghosh</span> and I am from{" "}
-                <span className="different">
+                <span className="different">Biswajit Ghosh</span> and I am currently pursuing B.Tech in Computer Science & Engineering from{" "}
+                {/* <span className="different">
                   {" "}
                   Kolkata,West Bengal (India)
                 </span>
                 . I am pursuing B.Tech in Computer science And Engineering 
-                from{" "}
+                from{" "} */}
                 <span className="different">
                 <a href="https://www.heritageit.edu/">
                 Heritage Institute Of Technology,Kolkata
@@ -36,15 +37,9 @@ export const Introduction = () => {
                   
                 </span>
                 . I am currently a Full stack Web Developer{" "}
-                and exploring Web 3.
+                and exploring Blockchain Development.
               </h4>
               <h4>Things I love apart form Coding :</h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Love Cricket And Football{" "}
-              </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />

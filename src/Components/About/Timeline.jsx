@@ -62,7 +62,7 @@ export const Timeline = () => {
               data-aos="fade-right"
             >
             <a href="https://www.linkedin.com/company/iqapex-labs/mycompany/">
-            IQ Apex Labs
+            IQApex Labs
             </a>
               
             </h4>

@@ -37,33 +37,33 @@ export const Techstacks = () => {
           </div>
           <div>
             <FaReact />
-            <h5>React</h5>
+            <h5><a href="https://react.dev/">React</a></h5>
           </div>
           <div>
             <FaNodeJs />
-            <h5>Nodejs</h5>
+            <h5><a href="https://nodejs.org/en">Nodejs</a></h5>
           </div>
           <div>
             <DiMongodb />
-            <h5>MongoDb</h5>
+            <h5><a href="https://www.mongodb.com/MongoDb">MongoDb</a></h5>
           </div>
 
           <div>
             <SiExpress />
-            <h5>Express</h5>
+            <h5><a href="https://expressjs.com/">Express</a></h5>
           </div>
 
           <div>
             <SiTypescript />
-            <h5>TypeScript</h5>
+            <h5><a href="https://www.typescriptlang.org/">TypeScript</a></h5>
           </div>
           <div>
             <BsBootstrap />
-            <h5>Bootstrap</h5>
+            <h5><a href="https://getbootstrap.com/">Bootstrap</a></h5>
           </div>
           <div>
             <SiTailwindcss />
-            <h5>Tailwind CSS</h5>
+            <h5><a href="https://tailwindcss.com/">Tailwind CSS</a></h5>
           </div>
           {/* <div>
             <TbBrandCpp />
@@ -71,7 +71,7 @@ export const Techstacks = () => {
           </div> */}
           <div>
             <VscGithub />
-            <h5>Github</h5>
+            <h5><a href="https://git-scm.com/Git">Git</a></h5>
           </div>
         </div>
       </div>
