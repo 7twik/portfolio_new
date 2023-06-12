@@ -3,6 +3,7 @@ import "./Introduction.css";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
 import profilePic from "../../assets/img043 (1).jpg";
+import { pro } from "../../assets/index.js";
 
 
 export const Introduction = () => {
@@ -18,7 +19,7 @@ export const Introduction = () => {
           <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
               {/* <img src="https://media.licdn.com/dms/image/D4D03AQGBLqQjCqTcLw/profile-displayphoto-shrink_800_800/0/1677220942468?e=1686182400&v=beta&t=Ynz73v7biCfNUb_Ge3fAIpHwYd9CFVS-8n1YYJdOhgQ" alt="Images" /> */}
-              <img src="../../assets/pro.jpg" alt="Images" />
+              <img src={pro} alt="Images" />
             </div>
             <div className="introduction_datacontainer">
               <h4>
