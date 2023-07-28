@@ -38,14 +38,6 @@ export const Introduction = () => {
                 applications, collaborating with cross-functional teams to
                 implement features and optimize performance. I also explored the
                 exciting realms of Web3 and Solidity for blockchain development.
-                <br />
-                I am currently seeking internship opportunities as a blockchain
-                or MERN stack developer. With a passion for technology and a
-                strong foundation in frontend and backend development, I am
-                eager to apply my skills and contribute to innovative projects.
-                My proficiency in MERN stack, Web3, Solidity, and Next.js,
-                combined with my dedication to continuous learning, positions me
-                well to make a positive impact.
               </h4>
               <h4>Things I love apart form Coding :</h4>
               <h4 className="different">
