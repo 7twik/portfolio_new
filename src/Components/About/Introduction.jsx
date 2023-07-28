@@ -5,7 +5,6 @@ import { ThemeContext } from "../../Context/theme";
 import profilePic from "../../assets/img043 (1).jpg";
 import { pro } from "../../assets/index.js";
 
-
 export const Introduction = () => {
   const [{ themename }] = React.useContext(ThemeContext);
 
@@ -23,14 +22,8 @@ export const Introduction = () => {
             </div>
             <div className="introduction_datacontainer">
               <h4>
-                Hi Everyone, My name is{" "}
+                {/* Hi Everyone, My name is{" "}
                 <span className="different">Biswajit Ghosh</span> and I am currently pursuing B.Tech in Computer Science & Engineering from{" "}
-                {/* <span className="different">
-                  {" "}
-                  Kolkata,West Bengal (India)
-                </span>
-                . I am pursuing B.Tech in Computer science And Engineering 
-                from{" "} */}
                 <span className="different">
                 <a href="https://www.heritageit.edu/">
                 Heritage Institute Of Technology,Kolkata
@@ -38,7 +31,21 @@ export const Introduction = () => {
                   
                 </span>
                 . I am currently a Full stack Web Developer{" "}
-                and exploring Blockchain Development.
+                and exploring Blockchain Development. */}
+                I am a motivated Full Stack Developer with experience in MERN
+                stack development, Web3, Solidity, and Next.js. As an intern at
+                IQApex Labs, I contributed to the development of web
+                applications, collaborating with cross-functional teams to
+                implement features and optimize performance. I also explored the
+                exciting realms of Web3 and Solidity for blockchain development.
+                <br />
+                I am currently seeking internship opportunities as a blockchain
+                or MERN stack developer. With a passion for technology and a
+                strong foundation in frontend and backend development, I am
+                eager to apply my skills and contribute to innovative projects.
+                My proficiency in MERN stack, Web3, Solidity, and Next.js,
+                combined with my dedication to continuous learning, positions me
+                well to make a positive impact.
               </h4>
               <h4>Things I love apart form Coding :</h4>
               <h4 className="different">

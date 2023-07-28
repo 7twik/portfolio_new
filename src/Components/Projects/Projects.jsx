@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import {fruits} from "../../assets/index.js"
+import {fruits, golocal} from "../../assets/index.js"
 import { bita,stop } from "../../assets/index.js";
 import { youtube } from "../../assets/index.js";
 import { FaReact, FaHardHat } from "react-icons/fa";
@@ -32,13 +32,13 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src={stop} alt="47BitaPods" />
+                  <img src={golocal} alt="47BitaPods" />
                 </div>
               </div>
               <div className="project_information">
-                <h2>StopBy</h2>
+                <h2>GoLocal</h2>
                 <p>
-                  StopBy is a an ecommerce website for hawkers mainly thellawallahs as well as customers to sell and buy things
+                  GoLocal is a an ecommerce website for hawkers mainly thellawallahs as well as customers to sell and buy things with decentralized payment integration
                 </p>
                 <div>
                   <SiNodedotjs />
@@ -47,7 +47,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://stopby.onrender.com/"
+                    href="https://golocal-ktqh.onrender.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -56,7 +56,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/biswajit150803/hawkershut-frontend/"
+                    href="https://github.com/biswajit150803/GoLocal"
                     target="_blank"
                     rel="noreferrer"
                   >
