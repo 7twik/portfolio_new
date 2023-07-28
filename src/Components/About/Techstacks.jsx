@@ -9,7 +9,8 @@ import {
   SiRedis,
   SiTailwindcss,
   SiNetlify,
-  SiTypescript
+  SiTypescript,
+  SiSolidity
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript, SiHeroku } from "react-icons/si";
@@ -73,6 +74,10 @@ export const Techstacks = () => {
             <VscGithub />
             <h5><a href="https://git-scm.com/Git">Git</a></h5>
           </div>
+          <div>
+          <SiSolidity />
+            <h5><a href="https://docs.soliditylang.org/en/v0.8.6/">Solidity</a></h5>
+            </div>
         </div>
       </div>
     </>

@@ -27,6 +27,48 @@ export const Projects = () => {
       <div className="section">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
+
+        <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={stop} alt="47BitaPods" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>StopBy</h2>
+                <p>
+                  StopBy is a an ecommerce website for hawkers mainly thellawallahs as well as customers to sell and buy things
+                </p>
+                <div>
+                  <SiNodedotjs />
+                  <SiExpress />
+                  <SiMongodb />
+                </div>
+                <div>
+                  <a
+                    href="https://stopby.onrender.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      View Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/biswajit150803/hawkershut-frontend/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -143,46 +185,6 @@ export const Projects = () => {
                   </a>
                   <a
                     href="https://github.com/biswajit150803/47BitaPodsv2.0"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img src={stop} alt="47BitaPods" />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>StopBy</h2>
-                <p>
-                  StopBy is a an ecommerce website for hawkers mainly thellawallahs as well as customers to sell and buy things
-                </p>
-                <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
-                </div>
-                <div>
-                  <a
-                    href="https://stopby.onrender.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      View Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/biswajit150803/hawkershut-frontend/"
                     target="_blank"
                     rel="noreferrer"
                   >
