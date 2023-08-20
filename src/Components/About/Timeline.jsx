@@ -33,6 +33,45 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
+            date={"Aug'23 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Full Stack Developer Intern
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+            <a href="https://www.linkedin.com/company/thebengalstudio/">
+            The Bengal Studio
+            </a>
+              
+            </h4>
+            <p data-aos="fade-right">
+              Manage and build web applications using React JS.
+            </p>
+          </VerticalTimelineElement>
+        <VerticalTimeline lineColor={linecolor}>
+          <VerticalTimelineElement
             date={"Jan'23 - April'23"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
@@ -61,13 +100,52 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-            <a href="https://www.linkedin.com/company/iqapex-labs/mycompany/">
+            <a href="https://www.linkedin.com/company/iqapex-labs/">
             IQApex Labs
             </a>
               
             </h4>
             <p data-aos="fade-right">
               Manage and build web applications using React JS for real estate purpose.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimeline lineColor={linecolor}>
+          <VerticalTimelineElement
+            date={"Aug'23 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Backend Lead
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+            <a href="https://www.linkedin.com/company/developer-students-club-hit/">
+            Google Developer Student's Club-HIT
+            </a>
+              
+            </h4>
+            <p data-aos="fade-right">
+              Manage events,conduct tech sessions and seminars
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
