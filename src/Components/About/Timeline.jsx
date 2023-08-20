@@ -70,7 +70,6 @@ export const Timeline = () => {
               Manage and build web applications using React JS.
             </p>
           </VerticalTimelineElement>
-        <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
             date={"Jan'23 - April'23"}
             contentStyle={{
@@ -109,7 +108,6 @@ export const Timeline = () => {
               Manage and build web applications using React JS for real estate purpose.
             </p>
           </VerticalTimelineElement>
-          <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
             date={"Aug'23 - Present"}
             contentStyle={{
@@ -148,8 +146,6 @@ export const Timeline = () => {
               Manage events,conduct tech sessions and seminars
             </p>
           </VerticalTimelineElement>
-          </VerticalTimeline>
-          <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
             date={"Dec 2022 - Present"}
             contentStyle={{
