@@ -148,6 +148,8 @@ export const Timeline = () => {
               Manage events,conduct tech sessions and seminars
             </p>
           </VerticalTimelineElement>
+          </VerticalTimeline>
+          <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
             date={"Dec 2022 - Present"}
             contentStyle={{
