@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import {fruits, golocal} from "../../assets/index.js"
-import { bita,stop } from "../../assets/index.js";
+import { bita,stop,terminal } from "../../assets/index.js";
 import { youtube } from "../../assets/index.js";
 import { FaReact, FaHardHat } from "react-icons/fa";
 import {
@@ -185,6 +185,45 @@ export const Projects = () => {
                   </a>
                   <a
                     href="https://github.com/biswajit150803/47BitaPodsv2.0"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={terminal} alt="terminal" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Terminal Portfolio</h2>
+                <p>
+                  A portfolio made using HTML,CSS and Javascript which can be interacted through the terminal by the help of commands
+                </p>
+                <div>
+                  <IoLogoJavascript />
+                </div>
+                <div>
+                  <a
+                    href="https://terminalbiswajitportfolio.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      View Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/biswajit150803/terminal_protfolio"
                     target="_blank"
                     rel="noreferrer"
                   >
