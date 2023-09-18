@@ -3,4 +3,5 @@ import youtube from "./youtube.png";
 import bita from "./bitapods.png";
 import golocal from "./golocal.png";
 import pro from "./pro.jpg";
-export { fruits, bita, youtube,golocal,pro };
+import terminal from "./terminal.PNG";
+export { fruits, bita, youtube,golocal,pro,terminal };
