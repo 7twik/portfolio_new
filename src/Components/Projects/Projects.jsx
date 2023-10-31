@@ -47,7 +47,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://golocal-ktqh.onrender.com/"
+                    href="https://evendorl-1wnf.onrender.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -56,7 +56,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/biswajit150803/GoLocal"
+                    href="https://github.com/biswajit150803/eVendor3"
                     target="_blank"
                     rel="noreferrer"
                   >
