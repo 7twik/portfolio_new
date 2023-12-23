@@ -11,13 +11,24 @@ import DescriptionIcon from "@material-ui/icons/Description";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
+import Typewriter from "typewriter-effect";
+
 // import Button from "@mui/material/Button";
 export const About = () => {
   return (
     <>
       <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
-          Hello, I am <span className="about__name">Biswajit Ghosh</span>
+          Hello, I am <span className="about__name">
+          <Typewriter
+          options={{
+          strings: ["Biswajit Ghosh"],
+          autoStart: true,
+          loop: true,
+          deleteSpeed: 50
+        }}
+      />
+          </span>
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">

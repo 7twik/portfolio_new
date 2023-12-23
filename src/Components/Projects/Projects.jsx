@@ -17,6 +17,7 @@ import {
   SiJavascript,
   SiMongodb,
   SiNodedotjs,
+  SiSolidity,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -38,12 +39,13 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>GoLocal</h2>
                 <p>
-                  GoLocal is a an ecommerce website for hawkers mainly thellawallahs as well as customers to sell and buy things with decentralized payment integration
+                  GoLocal is an ecommerce website for hawkers(vendors) and customers to sell and buy things with decentralized payment integration.
                 </p>
                 <div>
                   <SiNodedotjs />
                   <SiExpress />
                   <SiMongodb />
+                  <SiSolidity />
                 </div>
                 <div>
                   <a
@@ -125,7 +127,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Youtube Clone</h2>
                 <p>
-                  A youtube clone made using React JS and Rapid API where users can play videos without ads.
+                  A youtube clone made using React JS and Rapid API where users can play videos without ads.It is fully mobile responsive.
                 </p>
                 <div>
                   <DiCss3 />
@@ -207,10 +209,12 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Terminal Portfolio</h2>
                 <p>
-                  A portfolio made using HTML,CSS and Javascript which can be interacted through the terminal by the help of commands
+                  A portfolio made using HTML,CSS and Javascript which can be interacted through the terminal by the help of commands listed in the terminal.
                 </p>
                 <div>
                   <IoLogoJavascript />
+                  <DiCss3 />
+                  <SiHtml5 />
                 </div>
                 <div>
                   <a
@@ -235,8 +239,50 @@ export const Projects = () => {
               </div>
             </div>
           </div>
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={golocal} alt="Mern Estate" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>BiswaEstate</h2>
+                <p>
+                  BiswaEstate is a real estate company with Google authentication  where users can book esate properties from list of available properties.
+                </p>
+                <div>
+                  <SiNodedotjs />
+                  <SiExpress />
+                  <SiMongodb />
+                  <SiSolidity />
+                </div>
+                <div>
+                  <a
+                    href="https://evendorl-1wnf.onrender.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      View Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/biswajit150803/eVendor3"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
               </div>
             </div>
+          </div>
+      </div>
+    </div>
           
       
     </>
