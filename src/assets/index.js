@@ -4,4 +4,6 @@ import bita from "./bitapods.png";
 import golocal from "./golocal.png";
 import pro from "./pro.jpg";
 import terminal from "./terminal.PNG";
-export { fruits, bita, youtube,golocal,pro,terminal };
+import chemcon from "./chemcon.png";
+import mern_estate from "./mern_estate.png";
+export { fruits, bita, youtube,golocal,pro,terminal,chemcon,mern_estate };
