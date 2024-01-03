@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import {fruits, golocal} from "../../assets/index.js"
+import {chemcon, fruits, golocal, mern_estate} from "../../assets/index.js"
 import { bita,stop,terminal } from "../../assets/index.js";
 import { youtube } from "../../assets/index.js";
 import { FaReact, FaHardHat } from "react-icons/fa";
@@ -13,8 +13,6 @@ import {
   SiExpress,
   SiSocketdotio,
   SiTailwindcss,
-  SiReactrouter,
-  SiJavascript,
   SiMongodb,
   SiNodedotjs,
   SiSolidity,
@@ -244,7 +242,7 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src={golocal} alt="Mern Estate" />
+                  <img src={mern_estate} alt="Mern Estate" />
                 </div>
               </div>
               <div className="project_information">
@@ -256,11 +254,10 @@ export const Projects = () => {
                   <SiNodedotjs />
                   <SiExpress />
                   <SiMongodb />
-                  <SiSolidity />
                 </div>
                 <div>
                   <a
-                    href="https://evendorl-1wnf.onrender.com/"
+                    href="https://mern-estate-9p6s.onrender.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -269,7 +266,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/biswajit150803/eVendor3"
+                    href="https://github.com/biswajit150803/mern_estate"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -281,6 +278,49 @@ export const Projects = () => {
               </div>
             </div>
           </div>
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={chemcon} alt="Mern Estate" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Chemcon</h2>
+                <p>
+                  Chemcon is an official event of Indian Institute Of Chemical Engineers.Here users needed to sign in with their email and get the digital pass for the event.This project was an official project of my college.
+                </p>
+                <div>
+                  <SiNodedotjs />
+                  <SiExpress />
+                  <SiMongodb />
+                  <SiTailwindcss />
+                </div>
+                <div>
+                  <a
+                    href="https://chemcon.co.in/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      View Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/biswajit150803/chemcon"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
       </div>
     </div>
           
