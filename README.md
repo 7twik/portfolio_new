@@ -1,6 +1,6 @@
 # Portfolio Website
 
-![Portfolio Preview](![Screenshot (7)](https://github.com/biswajit150803/portfolio_new/assets/93331285/429a38de-20c6-420d-966a-2731abd3c5d4)
+![Portfolio Preview]![Screenshot (7)](https://github.com/biswajit150803/portfolio_new/assets/93331285/429a38de-20c6-420d-966a-2731abd3c5d4)
 
 
 ## Description
