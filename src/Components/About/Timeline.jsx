@@ -109,7 +109,7 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Aug'23 - Sept'23"}
+            date={"Aug'23 - July'24"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -147,7 +147,7 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Dec 2022 - Present"}
+            date={"Dec'22 - Jan'24"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -175,7 +175,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Geeks United Club,HITK
+              <a href="https://www.linkedin.com/company/geeks-united-hitk/">Geeks United Club,HITK</a>
             </h4>
             <p data-aos="fade-right">
               Organizing Coding Competitions,Tech Talks and Seminars for the students as well as building a community so that students learn from each other and grow.
