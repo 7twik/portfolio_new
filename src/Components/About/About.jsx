@@ -12,6 +12,7 @@ import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
 import Typewriter from "typewriter-effect";
+import { SiGeeksforgeeks, SiLeetcode } from "react-icons/si";
 
 // import Button from "@mui/material/Button";
 export const About = () => {
@@ -19,10 +20,10 @@ export const About = () => {
     <>
       <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
-          Hello, I am <span className="about__name">
+        <span className="about__name">
           <Typewriter
           options={{
-          strings: ["Biswajit Ghosh"],
+          strings: ["Hello, I am Biswajit Ghosh"],
           autoStart: true,
           loop: true,
           deleteSpeed: 50
@@ -56,6 +57,15 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
+            href="https://www.geeksforgeeks.org/user/biswajitghosh150803/"
+            aria-label="geeksforgeeks"
+            className="link link--icon"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <SiGeeksforgeeks />
+          </a>
+          <a
             href="tel:+918902247490"
             target="_blank"
             rel="noreferrer"
@@ -74,6 +84,15 @@ export const About = () => {
             <LinkedInIcon />
           </a>
           <a
+            href="https://leetcode.com/u/biswajit150803/"
+            aria-label="leetcode"
+            className="link link--icon"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <SiLeetcode />
+          </a>
+          <a
             href="https://twitter.com/Biswaji02598810"
             aria-label="twitter"
             className="link link--icon"
@@ -82,6 +101,7 @@ export const About = () => {
           >
             <TwitterIcon />
           </a>
+          
         </div>
 
         {/* <button
