@@ -21,14 +21,7 @@ export const About = () => {
       <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
         <span className="about__name">
-          <Typewriter
-          options={{
-          strings: ["Hello, I am Biswajit Ghosh"],
-          autoStart: true,
-          loop: true,
-          deleteSpeed: 50
-        }}
-      />
+          ghgh
           </span>
         </h1>
         <Type />
