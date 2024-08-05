@@ -21,7 +21,7 @@ export const About = () => {
       <div className="about center">
         <h1 data-aos="fade-right" className="mobileHead">
         <span className="about__name">
-          ghgh
+          ghghsdsa
           </span>
         </h1>
         <Type />
